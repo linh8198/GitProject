@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .col-1{ width: 8.33%;}
+    .col-2{ width: 16.66%;}
+    .col-3{ width: 25%;}
+    .col-4{ width: 33.33%;}
+    .col-5{ width: 41.66%;}
+    .col-6{ width: 50%;}
+    .col-7{ width: 58.33%;}
+    .col-8{ width: 66.66%;}
+    .col-9{ width: 75%;}
+    .col-10{ width: 83.33%;}
+    .col-11{ width: 91.66%;}
+    .col-12{ width: 100%;}
+    @media only screen and (min-width:600px) and (max-width:768px){
+    .col-m-1{ width: 8.33%;}
+    .col-m-2{ width: 16.66%;}
+    .col-m-3{ width: 25%;}
+    .col-m-4{ width: 33.33%;}
+    .col-m-5{ width: 41.66%;}
+    .col-m-6{ width: 50%;}
+    .col-m-7{ width: 58.33%;}
+    .col-m-8{ width: 66.66%;}
+    .col-m-9{ width: 75%;}
+    .col-m-10{ width: 83.33%;}
+    .col-m-11{ width: 91.66%;}
+    .col-m-12{ width: 100%;}
+    }
+    @media screen and (max-width:599px){
+        [class*="col-"]{
+            width: 100%;
+        }
+    }
+    .content{
+        float: left;
+    }
+    img{
+        width: 100%;
+    }
+    .gallery{
+        margin: 0 auto;
+        width: 95%;
+        text-align: center;
+        border: solid black 1px;
+    }
+</style>
+<body>
+    <h1>Responsive Image Gallery</h1>
+    <h2>Resize the browser window to see the effect.
+    </h2>
+    <div class="content col-3 col-m-6"> 
+        <div class="gallery col-12 col-m-12">
+            <a href=""> 
+                <img  src="img/img1.jpg" alt="">
+            </a>
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div class="content col-3 col-m-6"> 
+        <div class="gallery col-12 col-m-12">
+            <a href=""> 
+                <img  src="img/img2.jpg" alt="">
+            </a>
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div class="content col-3 col-m-6"> 
+        <div class="gallery col-12 col-m-12">
+            <a href=""> 
+                <img  src="img/img3.jpg" alt="">
+            </a>
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div class="content col-3 col-m-6"> 
+        <div class="gallery col-12 col-m-12">
+            <a href=""> 
+                <img  src="img/img4.jpg" alt="">
+            </a>
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+</body>
+</html>
