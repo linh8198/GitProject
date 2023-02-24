@@ -435,4 +435,7 @@ hr{
     .footer-left, .footer-right{
     padding: 0;
     }
+    .testimonial-col{
+        flex-basis: 100%;
+    }
 }
