@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        *::after {
+            box-sizing: border-box;
+        }
+
+        *::before {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4366b1;
+            position: relative;
+            height: 100px;
+        }
+
+        .giua-y {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .shearch-box {
+            margin-left: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 500px;
+
+        }
+
+        .right {
+            right: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .img1 {
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .img3 {
+            width: 30px;
+            border-radius: 50%;
+        }
+
+        .img1-1 {
+            width: 30px;
+            border-radius: 50%;
+        }
+
+        .img2 {
+            width: 50%;
+            height: 100%;
+            right: 0;
+            right: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+
+
+        ul {
+            display: inline;
+            text-decoration: none;
+        }
+
+        li,
+        a {
+            color: #fff;
+            display: inline;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: #e7e9ed;
+        }
+
+        .main-left {
+            display: inline-block;
+            width: 25%;
+            height: 1000px;
+        }
+
+        .main-left__top {
+            width: 100%;
+            height: 15%;
+            position: relative;
+        }
+
+        .main-left__giua {
+            width: 100%;
+            height: 35%;
+            position: relative;
+        }
+
+        .main-left__bottom {
+            width: 100%;
+            height: 30%;
+            position: relative;
+        }
+
+        .dong1 {
+            width: 100%;
+            height: 30%;
+            position: relative;
+        }
+
+        .dong2 {
+            position: absolute;
+            width: 90%;
+            height: 20%;
+            background-color: #fff;
+            border-radius: 10px;
+            right: 0;
+            display: inline-block;
+        }
+
+        .dong3 {
+            width: 100%;
+            height: 20%;
+        }
+
+        .dong1-img {
+            margin: 0px 20px 0px 30px;
+        }
+
+        .giua-dong1 {
+            position: relative;
+            width: 100%;
+            height: 10%;
+        }
+        .main-giua{
+            width: 35%;
+            display: inline-block;
+            background-color: #4366b1;
+        }
+        .main-giua__top{
+            display: inline-block;
+            width: 100%;
+            height: 30%;
+        }
+    </style>
+</head>
+
+<body style="font-family: arial;">
+    <header>
+        <div class="giua-y">
+            <img style="width: 50px; border-radius: 3px;" src="img/mini-facebook.png" alt="">
+            <form class="shearch-box" action="">
+                <div class="shearch-box">
+                    <input style="display: inline; width: 80%; height: 30px; border-radius: 10px;" type="text"
+                        placeholder="Shearch">
+                    <button style="display: inline;height: 35px;margin-left: -10px ;width: 35px;" type="button"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+            </form>
+        </div>
+        <div style="width: 45%; height: 100%;" class="right ">
+            <img class="img1 giua-y" src="img/mini-facebook.png" alt="">
+            <div>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="">Name</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="">Find</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="">Friends</a>
+                    </li>
+                </ul>
+            </div>
+            <img class="img2 giua-y" src="img/img2.png" alt="">
+        </div>
+
+    </header>
+    <main>
+        <div class="main-left">
+            <div class="main-left__top">
+                <div class="dong1">
+                    <img class="img1 giua-y dong1-img" src="img/mini-facebook.png" alt="">
+                    <p style="color: gray;display: inline; font-size: 14px;bottom: 20px;">Name Surname</p>
+                </div>
+                <div class="dong2">
+                    <img class="img1 giua-y " src="img/newfeed.png" alt="">
+                    <p style="display: inline; margin-left: 20px;">New feed</p>
+                    <img class="giua-y img1 right" src="img/3cham.png" alt="">
+                </div>
+                <div class="dong3"></div>
+                <div class="dong3">
+                    <img class="img1 giua-y dong1-img" src="img/mess.png" alt="">
+                    <p style="display: inline; color: gray;">messenegr</p>
+                </div>
+                <div class="dong3">
+                    <img class="img1 giua-y dong1-img" src="img/dong3.png" alt="">
+                    <p style="display: inline; color: gray;">Merketplace</p>
+                </div>
+                <div class="dong3"></div>
+            </div>
+            <div class="main-left__giua">
+                <div class="giua-dong1">
+                    <img class="img1 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Lorem ispul</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img1 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Lorem ispul</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img1 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Lorem ispul</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img1 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Lorem ispul</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img1 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Lorem ispul</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img1 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Lorem ispul</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img1 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Lorem ispul</p>
+                </div>
+            </div>
+            <div class="main-left__bottom">
+
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/even.png" alt="">
+                    <p style="display: inline; color: gray;">Events</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/page.png" alt="">
+                    <p style="display: inline; color: gray;">Pages</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/lorem.png" alt="">
+                    <p style="display: inline; color: gray;">Groups</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/friends list.png" alt="">
+                    <p style="display: inline; color: gray;">Friends List</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/otd.png" alt="">
+                    <p style="display: inline; color: gray;">On This Day</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/page feed.png" alt="">
+                    <p style="display: inline; color: gray;">Pages Feed</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/find friends.png" alt="">
+                    <p style="display: inline; color: gray;">Find Friends</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/foto.png" alt="">
+                    <p style="display: inline; color: gray;">Photos</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/games.png" alt="">
+                    <p style="display: inline; color: gray;">Games</p>
+                </div>
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/see more.png" alt="">
+                    <a style="display: inline; color: blue;" href="">See more...</a>
+                </div>
+                <div style="margin-top: 30px;" class="giua-dong1">
+                    <a style="display: inline; color: gray; margin: 60px 0 0 30px; padding-top:40px ;"
+                        href="">Create</a>
+                </div>
+                <div class="giua-dong1">
+                    <ul>
+                        <li><a style="color: blue;" href="">Ad</a></li>
+                        <li><a style="color: blue;" href="">Pages</a></li>
+                        <li><a style="color: blue;" href="">Groups</a></li>
+                        <li><a style="color: blue;" href="">Event</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-giua">
+            <div class="main-giua__top">
+                <div class="giua-dong1">
+                    <img class="img3 giua-y dong1-img" src="img/foto.png" alt="">
+                    <p style="display: inline; color: gray;">Photos</p>
+                </div>            </div>
+        </div>
+    </main>
+</body>
+
+</html>

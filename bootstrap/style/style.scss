@@ -1,0 +1,33 @@
+$main-color: red;
+@import 'header';
+@import 'mixins';
+
+footer{
+    height: 200px;
+    background-color:green ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%buttonStyle {
+    background-color: $main-color;
+    border: 0;
+    color: white;
+}
+.button1{
+    @extend %buttonStyle;
+}
+.button2{
+    @extend %buttonStyle;
+}
+// footer button{
+//     @include bottonStyle();
+// }
+footer{
+    button{
+    }
+    p{
+        font-size: large;
+        color: azure;
+    }
+}

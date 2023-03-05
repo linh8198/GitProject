@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #006688),
+        url("imgs/banner.webp");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 2%;
+    left: 3%;
+    border-radius: 50%;
+}
+
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 140px;
+}
+
+.banner-text h1 {
+    font-size: 120px;
+}
+
+.banner-text p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+
+}
+
+.banner-btn a {
+    margin-left: 20px;
+    text-decoration: none;
+    padding-top: 15px;
+    display: inline-block;
+    border: .5px solid #fff;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    position: relative;
+    transition: color 0.5s;
+    z-index: 1;
+}
+
+.banner-btn a span {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.banner-btn a:hover {
+    color: black;
+}
+
+.banner-btn a:hover span {
+    width: 100%;
+}
+
+#sideNav {
+    background: #006688;
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+
+}
+
+#sideNav nav ul li {
+    padding-left: 30px;
+    padding-top: 20px;
+    list-style: none;
+
+}
+
+#sideNav nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#menuBtn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#menu {
+    color: #fff;
+    font-size: 30px;
+}
+
+#feature{
+    width: 100%;
+    margin: 50px 0;
+}
+.title-text{
+    text-align: center;
+}
+.title-text p{
+    display: inline-block;
+    padding: 20px 0;
+    color: #006688;
+    font-size: 50px;
+    z-index: 1;
+    position: relative;
+    margin: auto;
+}
+.title-text h1{
+    font-size: 60px;
+}
+.title-text p::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 50px;
+    height: 35px;
+    transform: rotate(10deg);
+    background:linear-gradient(#006688, #fff);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    z-index: -1;
+}
+.feature-box{
+    width: 80% ;
+    margin:30px  auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.features{
+    flex-basis: 50%;
+
+}
+.features h1{
+    color: #006688;
+    font-size: 30px;
+}
+.feature-desc{
+    display: flex;
+    margin: 20px 0;
+}
+.feature-icon{
+    margin: 20px;
+    color: #006688;
+    font-size: 30px;
+}
+.feature-img{
+    flex-basis: 50%;
+    text-align: center;
+    border-radius: 6px;
+}
+.feature-img img{
+    width: 80%;
+    border-radius: 6px;
+}

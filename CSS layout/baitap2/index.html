@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitap2</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    *::after {
+        box-sizing: border-box;
+    }
+
+    *::before {
+        box-sizing: border-box;
+    }
+
+    .container {
+        margin: auto;
+        max-width: 80%;
+        width: 100%;
+        background-color: beige;
+        border: black solid;
+        box-sizing: border-box;
+    }
+
+    .header {
+        background-color: lightgrey;
+        border: black solid;
+        width: 98%;
+        height: 100px;
+        margin: 1%;
+      
+    }
+
+    .nav {
+        margin: 1%;
+        border: black solid;
+        width: 98%;
+        height: 100px;
+    }
+
+    .section {
+        display: inline-block;
+        border: black solid;
+        width: 100%;
+        height: 50%
+    }
+
+    .article {
+        display: inline-block;
+        margin-top: 1%;
+        border: black solid;
+        width: 100%;
+        height: 49%;
+    }
+
+    .aside {
+        position: absolute;
+        margin: 0px;
+        border: black solid;
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+        right: 0;
+    }
+
+    .box {
+        height: 100%;
+        width: 49%;
+        display: inline-block;
+        margin-right: 2%;
+    }
+
+    .wp-content {
+        position: relative;
+        margin: 1%;
+        display: flex;
+        width: 98%;
+        height: 300px;
+        /* border: solid gray; */
+    }
+
+    .footer {
+        background-color: lightgrey;
+        border: black solid;
+        width: 98%;
+        height: 100px;
+        margin: 1%;
+    }
+   
+</style>
+
+<body style="text-align: center;">
+    <div class="container">
+        <header>
+            <div class="header">
+                <h1> header </h1>
+            </div>
+        </header>
+        <nav>
+            <div class="nav">
+                <h1>nav</h1>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="wp-content">
+                <div class="box">
+                    <section class="section">
+                        <h1>section </h1>
+                    </section>
+                    <article class="article">
+                        <h1>article</h1>
+                    </article>
+                </div>
+                <aside class="aside">
+                    <h1>aside</h1>
+                </aside>
+            </div>
+        </main>
+        <footer class="footer">
+            <h1>footer</h1>
+        </footer>
+    </div>
+</body>
+
+</html>

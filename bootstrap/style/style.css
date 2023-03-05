@@ -1,0 +1,36 @@
+header {
+  background-color: red;
+}
+
+footer {
+  height: 200px;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button1, .button2 {
+  background-color: red;
+  border: 0;
+  color: white;
+}
+
+footer button {
+  background-color: red;
+  border: 0;
+  color: white;
+}
+
+footer p {
+  font-size: large;
+  color: azure;
+}
+
+/*# sourceMappingURL=style.css.map */

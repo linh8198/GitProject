@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        background-color: #cbd0d6;
+    }
+
+    header {
+        background-color: #4666b0;
+        height: 100px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .img-1 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100px;
+    }
+
+    .left {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+    }
+    body{
+        display: flex;
+    }
+    #search-box{
+        border-radius: 20px;
+        margin: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        display: inline-block;
+        background-color: #335089;
+    }
+    #search-box #search-text{
+        color: #fff;
+        border: none;
+        outline: none;
+        background: none;
+        padding:0 20px;
+        height: 1em;
+        width: 200px;
+        font-size: 2em;
+    }
+    #search-button{
+        font-size: 2em;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        color: #fff;
+    }
+    .mini-avatar{
+        border-radius: 50%;
+        width:10%;
+        display: inline-block;
+        margin: 20px;
+    }
+    main{
+		background-color: #fff;
+
+    }
+    .container-1{
+        background-color: #fff;
+        position: relative;
+        
+    }
+    header{
+        position: relative;
+    }
+    .date{
+        color: gray;
+        font-size: 14px;
+        margin-top: 5px;
+        display: inline;
+    }
+    .giua{
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+	.reaction{
+		position: relative;
+		margin: 0 20px;
+	}
+	.lsc{
+		position: relative;
+		margin: 0 50px;
+		max-width: 80%;
+	}
+	.can-giua{
+		position: absolute;
+		display: inline-block;
+		left: 50%;
+		transform: translateX(-50%);
+}
+</style>
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div class="container">
+        <header>
+            <img class="img-1" src="img/Untitled.png" alt="">
+            <form action="" id="search-box">
+                <input type="text" id="search-text" placeholder="Search">
+                <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <img class="left" width="100px" src="img/mess.png" alt="">
+        </header>
+        <main>
+            <div class="container-1">
+                <img class="mini-avatar " src="img/avatar.png" alt="">
+                <div class="giua">
+                    <h3 style="margin: 0;">Nguyen Van A</h3>
+                    <p class="date">Monday at 11:00 AM</p>
+                    <img style="width: 20px;" src="img/traidat.png" alt="">
+                </div>
+				<img class="left" width="100px" src="img/3cham.png" alt="">
+            </div>
+			<p style="margin: 5px 5px 10px 20px;">Lorem ipsum dolor sit amet consectetuer </p>
+			<img style="margin-top: 30px; width: 100%; height: 500px;" src="img/big-avatar.png" alt="">
+			<div class="reaction">
+				<img style="width: 100px; height: 60px; margin: 20px 20px 0 20px;" src="img/react.png" alt="">
+				<div class="giua" style="display: inline-block;">
+				<p   >Lorem ispum and 291 others</p>
+				</div>
+				<div class="left">
+					<p >55 coment</p>
+				</div>
+			</div>
+			<hr style="color: gray;width: 95%;">
+			<div class="lsc">
+				<img width="100px" src="img/like.png" alt="">
+				<div class="giua">
+					<p  style="font-size: 16px;">like</p>
+				</div>
+				<div class="can-giua">
+					<img width="80px" src="img/coment.png" alt="">
+					<div class="giua">
+						<p style="font-size: 16px; display: inline;">comment</p>
+					</div>
+				</div>
+				<div class="left">
+					<img width="80px" src="img/share.png" alt="">
+					<div class="giua">
+						<p style="font-size: 16px; display: inline;">share</p>
+					</div>
+				</div>
+				
+			</div>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
