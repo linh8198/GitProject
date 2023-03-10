@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Shantell+Sans:ital,wght@1,300&family=Sniglet&display=swap');
+:root{
+    --bggradient:linear-gradient(to bottom, #dd2476, #ff512f);
+    --sniglet:'Sniglet', cursive;
+} 
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background: var(--bggradient);
+}
+ header a {
+    color: white;
+}
+.nav-item a{
+    color: white;
+}
+.navbar-brand{
+    margin-left: 8rem;
+}
+.nav-item:last-child{
+    margin-right:8em;
+}
+.nav-item{
+    padding: 0.9rem;
+}
+.nav-link:hover{
+    color: black;
+}
+.primary-btn{
+    border-radius: 30px;
+    font-weight: bold;
+}
+.sniglet{
+ font-family: var(--sniglet);
+ font-size: 70px;
+}
+.sniglet-a{
+    font-family: var(--sniglet);
+    font-size: 16px;
+   }
+.section-1 .container .row .col-md-6 .card img{
+    opacity: 0.8;
+    border-radius: 8px;
+}
+.section-1 .container .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .container .row .col-md-6:last-child .card{
+    position: absolute;
+    top: 4em;
+    left: -8em;
+    box-shadow: 0 25px 42px black;
+    width: 80%;
+}
+.section-1 .container .row .col-md-6:last-child .card p{
+    opacity: 0.5;
+}
+
+
+.cover{
+    width: 100%;
+    height: 400px;
+    background:  url('/assets/avt2.jpg');
+    margin-top: 5em;
+    position: relative;
+
+}
+
+.cover .content{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    padding-top: 100px;
+}
+.numbers{
+    margin-top: -6.5em;
+}
+.rect{
+    /* position: relative; */
+    background: #fff;
+    z-index: 1;
+    margin: 0 3em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 25px 0 rgba(255,0,0,0.4);
+}
+.rect h1{
+    color: #dd2476;
+    font-size: 3em;
+}
+
+.card1{
+    margin: 0 20px;
+    width: 220px;
+}
+.card-title{
+    background: rgba(233,233,233,0.4);
+    
+}
+.card-title h1{
+    font-size: 12px;
+    padding:12px 0 ;
+    font-weight: bolder;
+}
+
+.card-body{
+    padding: 0;
+}
+.card-body p{
+    font-size: 12px;
+}
+.card-body div{
+    background: rgba(233,233,233,0.4);
+    border-top-right-radius: 110px;
+    border-top-left-radius: 110px;
+    margin-top: 30px;
+    padding: 30px 0;
+}
+.card-body div h1 {
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+
+.section-3{
+    /* height: 70vmin; */
+    background: var(--bggradient);
+    margin-top: 15vmin;
+}
+.mt-20 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.mt-p{
+    padding-bottom: 30px;
+}
+.b-r{
+    border-radius: 40px;
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+.section-4 .container div{
+    margin-top: 30px;
+}
+
+.section-4 .container div p{
+    font-size: 12px;
+}
+.card-2{
+    width: 250px;
+    text-align: center;
+}
+.card-2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: block;
+    margin: 30px auto;
+}
+
+
+footer{
+    background: rgba(0,0,0,0.815);
+    padding: 14vmin 18vmin;
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer  .input-group .input-group-text{
+    background: var(--bggradient) !important;
+}
+footer span{
+    color: #ff512f;
+}
+.input-group-prepend{
+    height: 100% !important;
+}
+
+.stiky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.815);
+    z-index: 999;
+    transition: all 1s ease;
+}

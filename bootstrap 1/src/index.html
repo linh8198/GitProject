@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Shantell+Sans:ital,wght@1,300&family=Sniglet&display=swap"
+        rel="stylesheet">
+        <script src="/js/main.js"></script>
 </head>
 
 <body>
@@ -20,7 +25,8 @@
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Books</a>
+
+                    <a class="navbar-brand" href="#"><i class="fa-solid fa-book-atlas fa-3x me-3"></i>Books</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +34,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="me-auto"></div>
-                        <ul class="navbar-nav mb-2 mb-lg-0">
+                        <ul class="navbar-nav mb-2 mb-lg-0 sniglet-a">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">HOME</a>
                             </li>
@@ -67,13 +73,13 @@
             </nav>
         </div>
         <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12">
-                    <h6> AUTHOR: DAILY TUITITION</h6>
-                    <h1>EXCITING ADVANTURE</h1>
+            <div class="row py-5">
+                <div class="col-md-7 col-sm-12 text-light ">
+                    <h6 class="p-2"> AUTHOR: DAILY TUITITION</h6>
+                    <h1 class="p-3 sniglet">EXCITING ADVANTURE</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum odit voluptas consequatur
                         repellat ab labore perspiciatis qui, excepturi provident eligendi maiores sae</p>
-                    <button type="button" class="btn btn-light"> Buy now for $ 5.99</button>
+                    <button type="button" class="btn btn-light primary-btn px-5 py-2"> Buy now for $ 5.99</button>
                 </div>
                 <div class="col-md-5 col-sm-12">
                     <img src="/assets/tải xuống.jpg" alt="">
@@ -106,7 +112,7 @@
         </div>
         <div class="section-2">
             <div class="container-fluid">
-                <div>
+                <div class="cover">
                     <div class="content text-center">
                         <h1> Some Features Make Us that Unique</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero consequatur voluptates volu
@@ -114,20 +120,20 @@
 
                     </div>
                 </div>
-                <div class="d-flex flex-wrap justify-content-center">
-                    <div>
+                <div class="d-flex flex-wrap justify-content-center numbers">
+                    <div class="rect">
                         <h1>2345</h1>
                         <p>Happy Silent</p>
                     </div>
-                    <div>
+                    <div class="rect">
                         <h1>2345</h1>
                         <p>Happy Silent</p>
                     </div>
-                    <div>
+                    <div class="rect">
                         <h1>2345</h1>
                         <p>Happy Silent</p>
                     </div>
-                    <div>
+                    <div class="rect">
                         <h1>2345</h1>
                         <p>Happy Silent</p>
                     </div>
@@ -140,45 +146,52 @@
             </div>
             <div class="container">
                 <div class="d-flex flex-row justify-content-center text-center">
-                    <div class="card">
+                    <div class="card card1">
                         <div class="card-title">
                             <h1>PDF</h1>
                         </div>
                         <div class="card-body">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quos soluta aliNemo,
                                 atque.</p>
-                            <h1>$7.99</h1>
-                            <button class="btn btn-dark py-2">
-                                Mua ngay
-                            </button>
+                            <div>
+                                <h1>$7.99</h1>
+                                <button class="btn btn-dark py-2">
+                                    Mua ngay
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card1 card">
                         <div class="card-title">
                             <h1>PDF</h1>
                         </div>
                         <div class="card-body">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quos soluta aliNemo,
                                 atque.</p>
-                            <h1>$7.99</h1>
-                            <button class="btn btn-dark py-2">
-                                Mua ngay
-                            </button>
+                            <div>
+                                <h1>$7.99</h1>
+                                <button class="btn btn-dark py-2">
+                                    Mua ngay
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card1 card">
                         <div class="card-title">
                             <h1>PDF</h1>
                         </div>
                         <div class="card-body">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quos soluta aliNemo,
                                 atque.</p>
-                            <h1>$7.99</h1>
-                            <button class="btn btn-dark py-2">
-                                Mua ngay
-                            </button>
+                            <div>
+                                <h1>$7.99</h1>
+                                <button class="btn btn-dark py-2">
+                                    Mua ngay
+                                </button>
+                            </div>
                         </div>
                     </div>
+
 
 
 
@@ -186,29 +199,30 @@
             </div>
         </div>
         <section class="section-3">
-            <div class="container-fluid text-center">
-                <div>
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum placeat i</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At obcaecati commodi earum laboriosam
+            <div class="container-fluid text-center ">
+                <div class="text-light">
+                    <h1 class="mt-20">Lorem ipsum dolor sit amet consectetur adipisit i</h1>
+                    <p class="mt-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At obcaecati commodi earum
+                        laboriosam
                         aspernatur maxime nulla fuga perspiciatis fugiat. Quibusdam ea, voluptatum nihil dignissimos
                         dicta voe?</p>
                 </div>
                 <div class=" d-flex flex-row justify-content-center">
-                    <div class="card d-flex flex-row px-3 mx-3">
+                    <div class="card d-flex flex-row px-3 mx-3 b-r">
                         <div>
-                            <i class="fa-solid fa-desktop fa-3x pt-4 pe-3"></i>
+                            <i class="fa-solid fa-desktop fa-3x pt-3 pe-3"></i>
                         </div>
                         <div>
-                            <h1>Desk top</h1>
+                            <h2>Desk top</h2>
                             <p>On website</p>
                         </div>
                     </div>
-                    <div class="card d-flex flex-row px-3">
+                    <div class="card d-flex flex-row px-3 mx-3 b-r">
                         <div>
-                            <i class="fa-regular fa-mobile fa-3x pt-4 pe-3"></i>
+                            <i class="fa-regular fa-mobile fa-3x pt-3 pe-3"></i>
                         </div>
                         <div>
-                            <h1>On Mobile</h1>
+                            <h2>On Mobile</h2>
                             <p>On website</p>
                         </div>
                     </div>
@@ -218,42 +232,54 @@
         <section class="section-4">
             <div class="container text-center">
                 <div>
-                    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <h1>Lorem ipsum do.</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus esse voluptas aut quia,
                         officiis amet, libeo!</p>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 card col-12 shadow-lg">
-                        <img src="/assets/avt1.jpg" class="img-fluid" alt="">
-                        <h1>ncidunt qui libero ea atque quo se</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad praesentium incidunt
-                            qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia iure?
-                            Placeat, aut omnis?</p>
-                        <h2>or, sit amet conse</h2>
-                        <p>o, eos ad praesentium incid</p>
+                <div class="row d-flex flex-wrap justify-content-between">
+                    <div class="col-md-4 col-12  ">
+                        <div class="card shadow-lg card-2 mx-auto">
+                            <img src="/assets/avt1.jpg" class="img-fluid" alt="">
+                            <h2 class="mb-5">ncidunt qu</h2>
+                            <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad praesentium
+                                incidunt
+                                qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia iure?
+                                Placeat, aut omnis?</p>
+                            <h2>or, sit amet conse</h2>
+                            <p>o, eos ad praesentium incid</p>
+                        </div>
                     </div>
 
-                    <div class="col-md-4 card col-12 shadow-lg">
-                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="col-md-4  col-12  text-center">
+                        <div id="carouselExampleControls" class="carousel slide mt-0 pt-0" data-ride="carousel">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="/assets/avt3.jpg" class="img-fluid" alt="">
-                                    <h1>ncidunt qui libero ea atque quo se</h1>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad
-                                        praesentium incidunt qui libero ea atque quo sequi earum eum repellat totam
-                                        distinctio dolorem officia iure? Placeat, aut omnis?</p>
-                                    <h2>or, sit amet conse</h2>
-                                    <p>o, eos ad praesentium incid</p>
-                                </div>
-                                <div class="carousel-item">
+                                <div class="carousel-item active mt-0 pt-0">
 
-                                    <img src="/assets/avt4.jpg" class="img-fluid" alt="">
-                                    <h1>ncidunt qui libero ea atque quo se</h1>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad
-                                        praesentium incidunt qui libero ea atque quo sequi earum eum repellat totam
-                                        distinctio dolorem officia iure? Placeat, aut omnis?</p>
-                                    <h2>or, sit amet conse</h2>
-                                    <p>o, eos ad praesentium incid</p>
+                                    <div class="card shadow-lg card-2 mx-auto mt-0 pt-0">
+                                        <img src="/assets/avt1.jpg" class="img-fluid" alt="">
+                                        <h2 class="mb-5">ncidunt</h2>
+                                        <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad praesentium
+                                            incidunt
+                                            qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia iure?
+                                            Placeat, aut omnis?</p>
+                                        <h2>or, sit amet conse</h2>
+                                        <p>o, eos ad praesentium incid</p>
+                                    </div>
+
+
+                                </div>
+                                <div class="carousel-item mt-0 pt-0">
+
+                                    <div class="card shadow-lg card-2 mt-0 pt-0 mx-auto">
+                                        <img src="/assets/avt1.jpg" class="img-fluid" alt="">
+                                        <h2 class="mb-5">ncidunt</h2>
+                                        <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad praesentium
+                                            incidunt
+                                            qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia iure?
+                                            Placeat, aut omnis?</p>
+                                        <h2>or, sit amet conse</h2>
+                                        <p>o, eos ad praesentium incid</p>
+                                    </div>
                                 </div>
 
                             </div>
@@ -270,14 +296,17 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 card col-12 shadow-lg">
-                        <img src="/assets/avt2.jpg" class="img-fluid" alt="">
-                        <h1>ncidunt qui libero ea atque quo se</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad praesentium incidunt
-                            qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia iure?
-                            Placeat, aut omnis?</p>
-                        <h2>or, sit amet conse</h2>
-                        <p>o, eos ad praesentium incid</p>
+                    <div class="col-md-4  col-12  ">
+                        <div class="card shadow-lg card-2 mx-auto">
+                            <img src="/assets/avt1.jpg" class="img-fluid" alt="">
+                            <h2 class="mb-5">ncidunse</h2>
+                            <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, eos ad praesentium
+                                incidunt
+                                qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia iure?
+                                Placeat, aut omnis?</p>
+                            <h2>or, sit amet conse</h2>
+                            <p>o, eos ad praesentium incid</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -287,33 +316,33 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-5 col-sm-12">
-                    <h3> qui libero ea atque quo se</h3>
-                    <p> elit. Vero, eos ad praesentium incidunt qui libero ea </p>
-                    <p>um incidunt qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia
-                        iure? Placeat, aut omnis?</p>
+                    <h3 class="text-light"> qui libero ea atque quo se</h3>
+                    <p class="text-muted"> elit. Vero, eos ad praesentium incidunt qui libero ea </p>
+                    <p class="text-muted">um incidunt qui libero ea atque quo sequi earum eum repellat totam distinctio dolorem officia
+                        iure? Placeat, <span> aut omnis?</span></p>
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <h3>raesentium incidunt qui</h3>
-                    <p>quo sequi earum eum repellat totam distinctio dolorem officia iure</p>
+                    <h3 class="text-light">raesentium incidunt qui</h3>
+                    <p class="text-muted">quo sequi earum eum repellat totam distinctio dolorem officia iure</p>
                     <form action="" class="form-inline">
                         <div class="ps-0">
                             <div class="input-group">
                                 <input type="text" class="form-control bg-dark text-light" placeholder="Email">
                                 <div class="input-group-prepend">
-                                    <div class="input-group-text">
+                                    <div class="input-group-text d-inline-block">
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </div>
                                 </div>
                             </div>
-                          
+
 
                         </div>
                     </form>
                 </div>
                 <div class="col-md-3 col-sm-12 ">
-                    <h3>tium incidunt </h3>
-                    <p>tque quo sequi earum eum repellat totam d</p>
+                    <h3 class="text-light">tium incidunt </h3>
+                    <p class="text-muted">tque quo sequi earum eum repellat totam d</p>
                     <div class="text-light">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-instagram"></i>
