@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  background: #ecf4ff;
+  margin-bottom: 0;
+}
+
+.text-size-lg{
+  font-size: 60px;
+}
+.text-size-sm{
+  font-size: 14px;
+}
+.img-feature{
+  width: 100%;
+}
+.bg-main{
+  background: #ecf4ff;
+
+}
+.header-feature{
+  width: 45%;
+}
+.text-size-15{
+  font-size: 15px;
+}
+
+.a-feature{
+  width: 90%;
+}
+.fa-arrow-right{
+  cursor: pointer;
+}
