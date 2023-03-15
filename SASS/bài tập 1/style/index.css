@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.section-1 {
+  position: absolute;
+  opacity: 0.9;
+  width: auto;
+  left: 8px;
+  right: 10px;
+}
+
+.gridwrapper {
+  overflow: auto;
+  position: relative;
+}
+
+.gridcontent {
+  width: 8.33%;
+  margin: 0;
+  border-right: 0px solid grey;
+  height: 100%;
+  float: left;
+  background-color: #84c754;
+  background-color: #f1f1f1;
+}/*# sourceMappingURL=index.css.map */

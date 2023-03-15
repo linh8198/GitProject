@@ -1,0 +1,12 @@
+.section-1{
+    position: absolute;
+    opacity: 0.9;
+    width: auto;
+    left: 8px;
+    right: 10px;
+   
+}
+.gridwrapper-1{
+    @extend %gridwrapper;
+    height: 90px;
+}

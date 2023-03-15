@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+@import 'section-1';
+@import 'mixins';
+.gridwrapper {
+    overflow: auto;
+    position: relative;
+}
+
+.gridcontent {
+    width: 8.33%;
+    margin: 0;
+     border-right: 0px solid grey; 
+    height: 100%;
+    float: left;
+    background-color: #84c754;
+    background-color: #f1f1f1;
+}
+%gridwrapper {
+    overflow: auto;
+    position: relative;
+}
+%gridcontent {
+    width: 8.33%;
+    margin: 0;
+    border-right: 1px solid grey;
+    height: 100%;
+    float: left;
+    background-color: #84c754;
+    background-color: #f1f1f1;
+}
+$main-color: #9933cc;
+
